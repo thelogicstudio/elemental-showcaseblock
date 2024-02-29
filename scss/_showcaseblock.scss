@@ -17,10 +17,13 @@
     }
     .showcase-items {
         max-width: 80rem;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
         .showcase-item {
-            float: left;
+            display: inline-block; /* Change from float to inline-block */
             width: 150px;
-            padding: 20px;
+            padding: 30px;
             margin-top: 2rem;
             .showcase-item-title{
                 display: none;
