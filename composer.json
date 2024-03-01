@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TheLogicStudio\\ElementalFaqBlock\\": "src/"
+            "TheLogicStudio\\ElementalShowCaseBlock\\": "src/"
         }
     },
     "minimum-stability": "stable",
