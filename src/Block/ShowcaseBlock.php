@@ -1,6 +1,6 @@
 <?php
 
-    namespace Block;
+    namespace TheLogicStudio\ElementalShowcaseBlock\Block;
 
 
     use DNADesign\Elemental\Models\BaseElement;
