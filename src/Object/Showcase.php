@@ -1,14 +1,14 @@
 <?php
 
-    namespace TheLogicStudio\ElementalShowcaseBlock\Block;
+    namespace TheLogicStudio\ElementalShowcaseBlock\Object;
 
-    use Block\ShowcaseBlock;
     use SilverStripe\Assets\Image;
     use SilverStripe\AssetAdmin\Forms\UploadField;
     use SilverStripe\Forms\CheckboxField;
     use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
     use SilverStripe\Forms\TextField;
     use SilverStripe\ORM\DataObject;
+    use TheLogicStudio\ElementalShowcaseBlock\Block\ShowcaseBlock;
 
     class Showcase extends DataObject {
         private static string $table_name = 'Showcase';
