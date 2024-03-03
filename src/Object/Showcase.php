@@ -1,6 +1,6 @@
 <?php
 
-    namespace Object;
+    namespace TheLogicStudio\ElementalShowcaseBlock\Block;
 
     use Block\ShowcaseBlock;
     use SilverStripe\Assets\Image;
