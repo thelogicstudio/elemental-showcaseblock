@@ -10,7 +10,7 @@
     use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
     use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 
-    class ShowCaseBlock extends BaseElement {
+    class ShowcaseBlock extends BaseElement {
         private static $table_name = 'TLS_ShowCase';
 
         private static array $db = [
