@@ -2,7 +2,7 @@
 
     namespace Object;
 
-    use Block\ShowCaseBlock;
+    use Block\ShowcaseBlock;
     use SilverStripe\Assets\Image;
     use SilverStripe\AssetAdmin\Forms\UploadField;
     use SilverStripe\Forms\CheckboxField;
@@ -25,7 +25,7 @@
         ];
 
         private static array $has_one = [
-            'ShowCaseBlock' => ShowCaseBlock::class,
+            'ShowCaseBlock' => ShowcaseBlock::class,
             'Image'         => Image::class,
         ];
 
