@@ -4,10 +4,10 @@
 
 
     use DNADesign\Elemental\Models\BaseElement;
-    use Object\Showcase;
     use SilverStripe\Forms\DropdownField;
     use SilverStripe\Forms\GridField\GridField;
     use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
+    use TheLogicStudio\ElementalShowcaseBlock\Object\Showcase;
     use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 
     class ShowcaseBlock extends BaseElement {
