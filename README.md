@@ -8,6 +8,8 @@ A Showcase block that is compatible with SilverStripe Elemental.
 
 ```
 "require": {
+        "dnadesign/silverstripe-elemental": "^5.0",
+        "undefinedoffset/sortablegridfield": "^2.2",
         "thelogicstudio/elemental-showcaseblock": "*@dev"
 },
 "repositories": [
