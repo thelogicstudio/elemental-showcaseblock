@@ -1,6 +1,6 @@
 # SilverStripe Showcase Block
 
-A Showcase block that is compatible with SilverStripe Elemental.
+A Showcase block that is compatible with SilverStripe Elemental. This can be used to make a sponsor logo carousel or a banner.
 
 ## Installation
 
