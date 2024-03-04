@@ -12,7 +12,7 @@
             <% loop $AllShowcaseItems %>
                 <div class="showcase-item">
                     <div class="showcase-item-title">$Title</div>
-                    <div class="showcase-item-image">$Image.Fill(150,150)</div>
+                    <div class="showcase-item-image">$Image.Fit(150,150)</div>
                     <div class="showcase-item-desc">$Description</div>
                 </div>
              <% end_loop %>
