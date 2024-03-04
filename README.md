@@ -8,7 +8,7 @@ A Showcase block that is compatible with SilverStripe Elemental.
 
 ```
 "require": {
-        "thelogicstudio/elemental-showcaseblock": "dev-main"
+        "thelogicstudio/elemental-showcaseblock": "*@dev"
 },
 "repositories": [
         { "type": "vcs", "url": "https://github.com/thelogicstudio/elemental-showcaseblock" }
