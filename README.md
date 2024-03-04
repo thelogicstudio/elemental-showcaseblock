@@ -22,7 +22,7 @@ A Showcase block that is compatible with SilverStripe Elemental.
 ```
 composer{PHP VERSION} require thelogicstudio/elemental-showcaseblock
 ```
-e.g: composer82 require thelogicstudio/elemental-showcaseblock
+        e.g: composer82 require thelogicstudio/elemental-showcaseblock
 
 
 
