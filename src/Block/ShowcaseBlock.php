@@ -14,9 +14,10 @@
         private static $table_name = 'TLS_ShowCase';
 
         private static array $db = [
-            'ShowTitles'  => 'Enum("No, Yes")',
+            'ShowTitles'   => 'Enum("No, Yes")',
             'ShowContents' => 'Enum("No, Yes")',
-            'Content'     => 'HTMLText'
+            'Content'      => 'HTMLText',
+            'WidthType'    => 'Enum("FULL-WIDTH,PADDING")'
         ];
 
         private static $has_many = [
@@ -50,7 +51,10 @@
             ));
             $fields->addFieldToTab('Root.Settings', DropdownField::create($name = 'ShowTitles', $title = 'Show the Titles', $source = $showtitles));
             $fields->addFieldToTab('Root.Settings', DropdownField::create($name = 'ShowContents', $title = 'Show the Contents', $source = $showcontent));
-
+            $fields->addFieldToTab('Root.Settings', DropdownField::create('WidthType', 'Choose your preferred block width type:', [
+                'PADDING'         => 'Padding',
+                'FULL-WIDTH'      => 'Full Width',
+            ]), 'ExtraClass');
             return $fields;
         }
 
