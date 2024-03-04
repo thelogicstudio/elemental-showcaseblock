@@ -13,7 +13,7 @@ composer require thelogicstudio/elemental-showcaseblock
 Then include the SCSS:
 
 ```
-@import "thelogicstudio/elemental-faqblock/scss/showcaseblock";
+@import "thelogicstudio/elemental-showcaseblock/scss/showcaseblock";
 ```
 
 Note you'll need the Composer vendor folder set up in `includePaths` for SASS in your Gulpfile.
