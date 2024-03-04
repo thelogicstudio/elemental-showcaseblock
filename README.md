@@ -29,7 +29,7 @@ e.g: composer82 require thelogicstudio/elemental-showcaseblock
 3. Include the SCSS in YOUR-THEME/scss/bundle.scss
 
 ```
-@import "thelogicstudio/elemental-showcaseblock/scss/showcaseblock";
+@import "thelogicstudio/elemental-showcaseblock/scss/_showcaseblock";
 ```
 
 Note you'll need the Composer vendor folder set up in `includePaths` for SASS in your Gulpfile unless you are using the <a href="https://github.com/thelogicstudio/ss4-base-theme">SS4-BASE-THEME</a>.
