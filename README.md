@@ -16,4 +16,4 @@ Then include the SCSS:
 @import "thelogicstudio/elemental-showcaseblock/scss/showcaseblock";
 ```
 
-Note you'll need the Composer vendor folder set up in `includePaths` for SASS in your Gulpfile.
+Note you'll need the Composer vendor folder set up in `includePaths` for SASS in your Gulpfile unless you are using the <a href="https://github.com/thelogicstudio/ss4-base-theme">SS4-BASE-THEME</a>.
