@@ -4,11 +4,23 @@ A Showcase block that is compatible with SilverStripe Elemental.
 
 ## Installation
 
-First, install from Composer:
+First you will need to add these in your composer.json file.
 
 ```
-composer require thelogicstudio/elemental-showcaseblock
+"require": {
+        "thelogicstudio/elemental-showcaseblock": "dev-main"
+},
+"repositories": [
+        { "type": "vcs", "url": "https://github.com/thelogicstudio/elemental-showcaseblock" }
+],
 ```
+
+Install from Composer:
+
+```
+composer{PHP VERSION} require thelogicstudio/elemental-showcaseblock
+```
+e.g: composer82 require thelogicstudio/elemental-showcaseblock
 
 Then include the SCSS:
 
