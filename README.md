@@ -34,4 +34,12 @@ e.g: composer82 require thelogicstudio/elemental-showcaseblock
 @import "thelogicstudio/elemental-showcaseblock/scss/_showcaseblock";
 ```
 
+4. Add this to elements.yml
+
+```
+Page:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+```
+
 Note you'll need the Composer vendor folder set up in `includePaths` for SASS in your Gulpfile unless you are using the <a href="https://github.com/thelogicstudio/ss4-base-theme">SS4-BASE-THEME</a>.
