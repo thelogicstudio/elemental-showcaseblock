@@ -72,6 +72,9 @@
                     CheckboxField::create('isActive')->setTitle('Active'),
                 ]
             );
+
+            $this->extend('updateCMSFields', $fields);
+
             return $fields;
         }
 
