@@ -18,7 +18,7 @@
         "silverstripe/cms": "^4.3 || ^5.0.0 || ^6.0",
         "silverstripe/admin": "^1.0 || ^2.0 || ^3.0",
         "dnadesign/silverstripe-elemental": "^4.7 || ^5.0 || 6.0",
-        "silverstripe/elemental-bannerblock": "^2.0 || ^3.0 || ^4.0",
+        "silverstripe/elemental-bannerblock": "^2.0 || ^3.0 || ^4.0"
     },
     "autoload": {
         "psr-4": {
